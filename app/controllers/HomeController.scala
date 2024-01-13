@@ -7,6 +7,7 @@ import play.api.mvc._
 @Singleton
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
   def index: Action[AnyContent] = Action {
-    Ok(views.html.index("Welcome to My Portfolio"))
+    val yourEmailVariable: String = "abhibansal276@gmail.com"
+    Ok(views.html.index("Welcome to My Portfolio", yourEmailVariable))
   }
 }

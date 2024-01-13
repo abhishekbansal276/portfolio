@@ -1,3 +1,27 @@
+.sidebar-container {
+    background-color: #e82188;
+    border-radius: 10px;
+}
+
+.sidebar .nav-link {
+    padding: 10px;
+    color: white;
+}
+
+.sidebaricon {
+    margin-right: 8px;
+}
+
+.nav-link.active {
+    background-color: #f8f9fa;
+    color: #e82188;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #e82188;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -7,15 +31,6 @@
     padding-top: 56px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-}
-
-.nav-link {
-    padding: 10px;
-    color: #333;
-}
-
-.nav-link:hover {
-    background-color: #f8f9fa;
 }
 
 .ion-md-home, .ion-md-contact, .ion-md-information-circle {
